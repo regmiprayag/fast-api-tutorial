@@ -4,7 +4,8 @@ def noteEntity(item) -> dict:
         "id":str(item['_id']),
         "title":item['title'],
         "desc":item['desc'],
-        "important":item['important']
+        "important":item['important'],
+        "image":item["image"]
     }
 
 def notesEntity(items ) -> list:
